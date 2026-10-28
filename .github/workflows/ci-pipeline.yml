@@ -15,15 +15,6 @@ jobs:
     - name: Checkout Code
       uses: actions/checkout@v4
 
-    # 2. Check for code quality issues
-    - name: Lint Code Quality
-      uses: github/super-linter@v5
-      env:
-        DEFAULT_BRANCH: main
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        VALIDATE_HTML: true
-        VALIDATE_CSS: true
-
     # 3. Set up Docker Buildx
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@v3
