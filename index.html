@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Modern Site</title>
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-indigo-500 selection:text-white">
+
+    <!-- Hero Section -->
+    <div class="relative overflow-hidden py-24 px-6 sm:py-32 lg:px-8">
+        <div class="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-indigo-900/40 via-slate-950 to-slate-950"></div>
+        <div class="mx-auto max-w-2xl text-center">
+            <span class="inline-flex items-center gap-x-1 rounded-full bg-indigo-500/10 px-3 py-1 text-sm font-semibold leading-6 text-indigo-400 ring-1 ring-inset ring-indigo-500/20 mb-6">
+                🚀 Deployed on Nginx
+            </span>
+            <h1 class="text-4xl font-extrabold tracking-tight sm:text-6xl bg-gradient-to-r from-white via-indigo-200 to-indigo-400 bg-clip-text text-transparent">
+                Lightning Fast & Modern
+            </h1>
+            <p class="mt-6 text-lg leading-8 text-slate-300">
+                You have successfully deployed a clean, modern single-page website using an Nginx web server. Ready to scale and customize.
+            </p>
+            <div class="mt-10 flex items-center justify-center gap-x-6">
+                <a href="#features" class="rounded-xl bg-indigo-600 px-5.5 py-3.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transition-all">
+                    Explore Features
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div id="features" class="py-16 sm:py-24 bg-slate-900/50 border-t border-slate-800">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            <div class="mx-auto max-w-2xl lg:text-center">
+                <h2 class="text-base font-semibold leading-7 text-indigo-400">Built for performance</h2>
+                <p class="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Everything you need to stand out</p>
+            </div>
+            <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+                <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
+                    <div class="flex flex-col bg-slate-900 p-8 rounded-2xl border border-slate-800">
+                        <dt class="flex items-center gap-x-3 text-base font-semibold leading-7">
+                            ⚡ High Speed
+                        </dt>
+                        <dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-slate-400">
+                            <p class="flex-auto">Served via Nginx, ensuring low latency, high concurrency, and rapid asset delivery.</p>
+                        </dd>
+                    </div>
+                    <div class="flex flex-col bg-slate-900 p-8 rounded-2xl border border-slate-800">
+                        <dt class="flex items-center gap-x-3 text-base font-semibold leading-7">
+                            🔒 Secure & Reliable
+                        </dt>
+                        <dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-slate-400">
+                            <p class="flex-auto">Easily hook up containerized setups or standard server blocks with robust security defaults.</p>
+                        </dd>
+                    </div>
+                    <div class="flex flex-col bg-slate-900 p-8 rounded-2xl border border-slate-800">
+                        <dt class="flex items-center gap-x-3 text-base font-semibold leading-7">
+                            🎨 Modern UI
+                        </dt>
+                        <dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-slate-400">
+                            <p class="flex-auto">Styled cleanly with utility classes, looking great on mobile, tablet, and desktop devices.</p>
+                        </dd>
+                    </div>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-8 text-center text-xs text-slate-500 border-t border-slate-900">
+        &copy; 2026 Powered by Nginx. All rights reserved.
+    </footer>
+
+</body>
+</html>
